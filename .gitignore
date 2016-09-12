@@ -1,0 +1,48 @@
+# Some default ignores
+bin/
+deploy/
+dist/
+libs/
+logs/
+target/
+tmp/
+
+# Ignores for EA
+*.log
+*.ldb
+
+# Ignores for git
+*.orig
+*.patch
+
+# Ignores for lein/mvn
+.nrepl-*
+.lein-*
+
+# Ignores for vim
+*.sw*
+*~
+
+# Ignores for eclipse
+.project
+.settings
+.classpath
+
+# Ignores for IntelliJ
+*.iml
+.iml/
+.idea/
+
+# Ignores for Eclipse
+.settings/
+
+# Ignores for OS X
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignores for Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
