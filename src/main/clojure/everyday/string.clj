@@ -137,7 +137,7 @@
   [^CharSequence s]
   (if s
     (trim s)
-    EMPTY))
+    ""))
 
 (defn triml
   "Removes control characters (char <= 32 or char <= \u0020) from the
@@ -339,7 +339,7 @@
   [^CharSequence s]
   (if s
     (strip s)
-    EMPTY))
+    ""))
 
 (defn stripl
   "Removes whitespace characters from the beginning of this String, handling
