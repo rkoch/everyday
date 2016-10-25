@@ -289,7 +289,7 @@
    ```"
   {:added "0.1"}
   [^CharSequence s]
-  (impl/trim* s #(Character/isWhitespace %)))
+  (impl/trim* s #(Character/isWhitespace ^char %)))
 
 (defn strip-nil
   "Removes whitespace characters from both ends of this String, returning
@@ -361,7 +361,7 @@
   ```"
   {:added "0.1"}
   [^CharSequence s]
-  (impl/triml* s #(Character/isWhitespace %)))
+  (impl/triml* s #(Character/isWhitespace ^char %)))
 
 ;; TODO: stripl-nil, stripl-empty
 
@@ -385,7 +385,7 @@
   ```"
   {:added "0.1"}
   [^CharSequence s]
-  (impl/trimr* s #(Character/isWhitespace %)))
+  (impl/trimr* s #(Character/isWhitespace ^char %)))
 
 ;; TODO: stripr-nil, stripr-empty
 
